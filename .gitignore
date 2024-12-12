@@ -12,6 +12,6 @@
 #.pnp.*
 
 node_modules/
-dist/
+#dist/
 npm-debug.*
 .DS_Store

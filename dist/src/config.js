@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DefaultAzureVersion = exports.DefaultGroqModel = exports.DefaultAnthropicModel = exports.DefaultOpenAIModel = exports.MaximumResponseTokens = exports.MinimumResponseTokens = exports.CompletionDefaultTimeout = exports.CompletionDefaultRetries = void 0;
+exports.CompletionDefaultRetries = 3;
+exports.CompletionDefaultTimeout = 300_000;
+exports.MinimumResponseTokens = 200;
+exports.MaximumResponseTokens = 4_096;
+exports.DefaultOpenAIModel = 'gpt-4-1106-preview';
+exports.DefaultAnthropicModel = 'claude-3-sonnet-20240229';
+exports.DefaultGroqModel = 'mixtral-8x7b-32768';
+exports.DefaultAzureVersion = '2023-09-01-preview';

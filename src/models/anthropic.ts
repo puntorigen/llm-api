@@ -156,7 +156,7 @@ export class AnthropicChatApi implements CompletionApi {
       );
 
       if ('content' in response) {
-        completion = response.content[0].text;
+        completion = (response.content[0] as any).text;
         debug.log('🔽 completion received', completion);
       }
     }

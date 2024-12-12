@@ -1,0 +1,9 @@
+export declare const CompletionDefaultRetries = 3;
+export declare const CompletionDefaultTimeout = 300000;
+export declare const MinimumResponseTokens = 200;
+export declare const MaximumResponseTokens = 4096;
+export declare const DefaultOpenAIModel = "gpt-4-1106-preview";
+export declare const DefaultAnthropicModel = "claude-3-sonnet-20240229";
+export declare const DefaultGroqModel = "mixtral-8x7b-32768";
+export declare const DefaultAzureVersion = "2023-09-01-preview";
+//# sourceMappingURL=config.d.ts.map
