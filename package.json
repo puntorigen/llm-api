@@ -24,13 +24,13 @@
   ],
   "author": "David Zhang <david@aomni.com>",
   "license": "MIT",
-  "homepage": "https://github.com/dzhng/llm-api",
+  "homepage": "https://github.com/puntorigen/llm-api",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/dzhng/llm-api.git"
+    "url": "git+ssh://git@github.com/puntorigen/llm-api.git"
   },
   "bugs": {
-    "url": "https://github.com/dzhng/llm-api/issues"
+    "url": "https://github.com/puntorigen/llm-api/issues"
   },
   "scripts": {
     "setup": "husky install",
